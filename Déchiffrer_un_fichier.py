@@ -1,4 +1,5 @@
-"""Et voici un script python3 qui utilise également la bibliothèque PyCryptodome pour déchiffrer un fichier chiffré avec le même mot de passe. Vous avez besoin du module python3 cryptodome. Installez-le avec la commande pip3 install pycryptodome"""
+"""Et voici un script python3 qui utilise également la bibliothèque PyCryptodome pour déchiffrer un fichier chiffré avec le même mot de passe. 
+Vous avez besoin du module python3 cryptodome. Installez-le avec la commande pip3 install pycryptodome"""
 
 from Crypto.Cipher import AES
 import hashlib
