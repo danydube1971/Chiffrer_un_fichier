@@ -5,7 +5,7 @@ Ce script chiffre un fichier en utilisant l'algorithme de chiffrement AES (Advan
 Voici les étapes effectuées par le script:
 
 1. Importation des modules Crypto.Cipher et hashlib.
-2. Demande à l'utilisateur d'entrer le nom du fichier à chiffrer et le mot de passe.
+2. Demande à l'utilisateur d'entrer le nom du fichier à chiffrer et le mot de passe (entre 4 et 32 caractères).
 3. Utilisation du module hashlib pour hasher le mot de passe en utilisant l'algorithme de hachage SHA-256, afin d'obtenir une clé de chiffrement.
 4. Ouverture du fichier à chiffrer en mode lecture binaire ('rb'), lecture des données dans le fichier et stockage des données dans la variable "data".
 5. Ajout d'octets nuls à la fin des données pour compléter le dernier bloc de 16 octets (la taille de bloc de chiffrement AES utilisée dans ce script).
