@@ -13,6 +13,11 @@ Voici les étapes effectuées par le script:
 7. Chiffrement des données en utilisant le mode CBC (Cipher Block Chaining) d'AES et stockage des données chiffrées dans la variable "encrypted_data".
 8. Écriture des données chiffrées dans un nouveau fichier avec l'extension ".enc" ajoutée au nom du fichier d'origine. Le nouveau fichier est ouvert en mode écriture binaire ('wb') et les données chiffrées sont écrites dans le fichier.
 
+**Comment utiliser le script**
+
+Placer le script dans le même dossier du fichier que vous voulez chiffrer.
+Exécuter le script avec la commande suivante: **python3 "Chiffrer_un_fichier.py"**
+
 # Déchiffrer un fichier :
 Ce script déchiffre un fichier qui a été chiffré à l'aide de l'algorithme de chiffrement AES (Advanced Encryption Standard) avec une clé dérivée d'un mot de passe. Voici les étapes effectuées par le script :
 
