@@ -1,4 +1,6 @@
-"""Voici un script python3 pour Linux Mint qui utilise la bibliothèque PyCryptodome pour chiffrer un fichier avec AES 256 bits et demander un mot de passe à l'utilisateur (entre 4 et 32 caractères). Vous avez besoin du module python3 cryptodome. Installez-le avec la commande pip3 install pycryptodome"""
+"""Voici un script python3 pour Linux Mint qui utilise la bibliothèque PyCryptodome pour chiffrer un fichier avec AES 256 bits et 
+demander un mot de passe à l'utilisateur (entre 4 et 32 caractères). 
+Vous avez besoin du module python3 cryptodome. Installez-le avec la commande pip3 install pycryptodome"""
 
 from Crypto.Cipher import AES
 import hashlib
