@@ -2,6 +2,9 @@
 
 Ce script chiffre un fichier en utilisant l'algorithme de chiffrement AES (Advanced Encryption Standard) avec une clé dérivée d'un mot de passe.
 
+![Chiffrer_02](https://github.com/danydube1971/Chiffrer_un_fichier/assets/74633244/24d3be92-d401-4378-b532-2d7521d55ef6)
+
+
 Voici les étapes effectuées par le script:
 
 1. Importation des modules *Crypto.Cipher* et *hashlib*.
